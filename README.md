@@ -25,6 +25,7 @@ Get a dracula theme in your yilia blog is easy.
 - **enable configuration from yaml(the .yml file)**
 - do more tests
 - draculafy the smart menu
+- find a better way to display content
 - fix the bug: the border around the avatar is still white in mobiles
 - fix the bug: searching in yilia is not working
 - customized social icons (if you would like to)! 
