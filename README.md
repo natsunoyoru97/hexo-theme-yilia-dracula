@@ -30,7 +30,6 @@ Get a dracula theme in your yilia blog is easy.
 - do more tests
 - draculafy the smart menu
 - find a better way to display content
-- fix the bug: searching in yilia is not working
 - customized social icons (if you would like to)! 
 - maybe some animations
 - fix other minor bugs
