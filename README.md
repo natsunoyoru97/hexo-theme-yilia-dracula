@@ -1,6 +1,6 @@
 # yilia-theme-dracula
 
-A dracula-like theme originated from the hexo theme yilia, inspired by [Dracula](https://draculatheme.com/).
+A dracula-like theme originated from the hexo theme [yilia](https://github.com/litten/hexo-theme-yilia), inspired by [Dracula](https://draculatheme.com/).
 
 See [my blog](https://natsunoyoru97.github.io/) to look how it works.
 
