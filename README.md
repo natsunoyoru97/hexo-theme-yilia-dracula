@@ -18,6 +18,10 @@ Get a dracula theme in your yilia blog is easy.
 
 1. Just copy the ``dracula.scss`` file and paste it to the ``source-src/css`` folder in your yilia folder.
 
+```shell
+cp dracula.scss [your path]/blog/theme/yilia/source-src/css
+```
+
 2. Open the ``main.scss`` file, and add one line in the last of the file:
 
 ```scss
