@@ -1,0 +1,193 @@
+/* Dracula theme by natsunoyoru */
+
+.left-col {
+    background: #282A36;
+    border-right: 1px solid #E87BC2; //dark blue
+}
+
+.left-col #header .profilepic {
+    border: 5px solid #FD9D01; //orange
+}
+
+#header .header-author a {
+    color: #BD93F9; //purple
+}
+
+.left-col #header .header-subtitle {
+    color: #48D06D; //green
+}
+
+.left-col #header .header-menu li a {
+    color: #E87BC2; //pink
+}
+
+.left-col #header .header-smart-menu a {
+    color: #fff;
+}
+
+.mid-col {
+    background: #282A36;
+}
+
+//articles
+.article {
+    background: #383A59; //light blue (rather)
+    border: 1px solid #282A36;
+    border-top: 1px solid #E87BC2;
+    border-bottom: 1px solid #E87BC2;
+}
+
+.article-info-index.article-info {
+    border-top: 1px solid #E87BC2;
+}
+
+.article-tag .icon, .article-category .icon {
+    color: #fff;
+}
+
+.article-more-link a {
+    background: #50FA7B; //green
+    color: #000;
+}
+
+.article-header {
+    border-left: 5px solid #BD93F9;
+}
+
+.article-inner h1.article-title, .article-title {
+    color: #BC93F9;
+}
+
+.archive-article-date {
+    color: #E87BC2;
+}
+
+.article-entry p {
+    color: #fff;
+}
+
+ul, ol {
+    color: #fff;
+}
+
+.article-entry h1, .article-entry h2, .article-entry h3, .article-entry h4, .article-entry h5, .article-entry h6 {
+    color: #E87BC2;
+    border-bottom: 1px solid #E87BC2;
+}
+
+.article-entry pre {
+    border: 1px solid #272936;
+    color: #fff;
+}
+
+.article-entry pre, .article-entry .highlight {
+    background: #272936;
+}
+
+a {
+    color: #8BE9FC;
+}
+
+thead {
+    color: #E87BC2;
+}
+
+tbody {
+    color: #fff;
+}
+
+.article-entry strong {
+    color: #FD9D01;
+}
+
+.article-entry p code, .article-entry li code {
+    background: #272936;
+    border: 1px solid #272936;
+    color: #48D06D;
+}
+
+// categories
+.archives-wrap {
+    background: #383A59;
+    border-bottom: 1px solid #E87BC2;
+}
+
+.archives-wrap .archive-year-wrap a {
+    color: #BD93F9;
+}
+
+.archives .archive-article {
+    border-top: 1px solid #E87BC2;
+    border-bottom: 1px solid #E87BC2;
+}
+
+.archives .archive-article-title {
+    color: #FD9D01;
+}
+
+.article-meta time {
+    color: #E87BC2;
+}
+
+//tag-cloud
+.tagcloud {
+    color: #fff;
+    a.color1 {
+        background: #8BE9FD; //blue
+        &:before {
+            border-right-color: #4d838e;
+        }
+    }
+    a.color2 {
+        background: #82F784; //green
+        &:before{
+            border-right-color: #468247;
+        }
+    }
+    a.color3 {
+        background: #E97DC3; //pink
+        &:before{
+            border-right-color: #964f7c;
+        }
+    }
+    a.color4 {
+        background: #FFAD56; //orange
+        &:before{
+            border-right-color:#7a5b38;
+        }
+    }
+    a.color5 {
+        background: #B694F5; //purple
+        &:before{
+            border-right-color:#6e5a93;
+        }
+    }
+}
+
+//footer
+.outer {
+    color: #BD93F9;
+    text-shadow: none;
+}
+
+//mobile
+@media screen and (max-width: 800px) {
+    #mobile-nav .header-author {
+        color: #BD93F9;
+    }
+    .header-subtitle {
+        color: #48D06D;
+    }
+
+    .header-menu {
+        ul, li {
+            border: 1px solid #E87BC2;
+        }
+        li a {
+            color: #fff;
+            &.active {
+                background: #8BE9FC;
+            }
+        }
+    }
+}
