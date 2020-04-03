@@ -1,8 +1,9 @@
 /* Dracula theme by natsunoyoru */
 
 .left-col {
-    background: #282A36;
-    border-right: 1px solid #E87BC2; //dark blue
+    background: #282A36; //dark blue
+    border-right: 1px solid rgba(0,0,0,.15);
+    box-shadow: 5px 0 5px 5px rgba(0,0,0,.15);
 }
 
 .left-col #header .profilepic {
@@ -33,16 +34,15 @@
 .article {
     background: #383A59; //light blue (rather)
     border: 1px solid #282A36;
-    border-top: 1px solid #E87BC2;
-    border-bottom: 1px solid #E87BC2;
+    box-shadow: 5px 5px 5px 0 rgba(0,0,0,.15);
 }
 
 .article-info-index.article-info {
-    border-top: 1px solid #E87BC2;
+    border-top: 1px solid #BD93F9;
 }
 
-.article-tag .icon, .article-category .icon {
-    color: #fff;
+.article-tag .icon, .article-category .icon, .archive-article-date {
+    color: #aaa;
 }
 
 .article-more-link a {
@@ -58,21 +58,13 @@
     color: #BC93F9;
 }
 
-.archive-article-date {
-    color: #E87BC2;
-}
-
-.article-entry p {
-    color: #fff;
-}
-
-ul, ol {
+p, ul, ol {
     color: #fff;
 }
 
 .article-entry h1, .article-entry h2, .article-entry h3, .article-entry h4, .article-entry h5, .article-entry h6 {
     color: #E87BC2;
-    border-bottom: 1px solid #E87BC2;
+    border-bottom: 1px solid #aaa; //grey
 }
 
 .article-entry pre {
@@ -172,6 +164,9 @@ tbody {
 
 //mobile
 @media screen and (max-width: 800px) {
+    .mid-col #mobile-nav #header .profilepic {
+        border: 5px solid #FD9D01; //orange
+    }
     #mobile-nav .header-author {
         color: #BD93F9;
     }
@@ -181,12 +176,16 @@ tbody {
 
     .header-menu {
         ul, li {
-            border: 1px solid #E87BC2;
+            border: 1px solid #BD93F9;
+            border-left: none;
+        }
+        li:first-child {
+            border-left: 1px solid #BD93F9;
         }
         li a {
             color: #fff;
             &.active {
-                background: #8BE9FC;
+                background: #BD93F9;
             }
         }
     }
