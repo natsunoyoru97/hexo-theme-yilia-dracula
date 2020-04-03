@@ -1,5 +1,9 @@
 # yilia-theme-dracula
 
+![](https://img.shields.io/badge/hexo-3.7.1-blue)
+![](https://img.shields.io/badge/yilia-4.0.0-blue)
+![](https://img.shields.io/badge/IE-8+-red)
+
 chinese分支上有中文文档。
 
 A dracula-like theme originated from the hexo theme [yilia](https://github.com/litten/hexo-theme-yilia), inspired by [Dracula](https://draculatheme.com/).
