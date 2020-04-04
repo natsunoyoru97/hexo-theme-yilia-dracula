@@ -4,13 +4,13 @@
 ![](https://img.shields.io/badge/yilia-4.0.0-blue)
 ![](https://img.shields.io/badge/IE-8+-red)
 
-chinese分支上有中文文档。
+[中文文档](./README_CN.md)
 
-A dracula-like theme originated from the hexo theme [yilia](https://github.com/litten/hexo-theme-yilia), inspired by [Dracula](https://draculatheme.com/).
+A dracula-like color scheme originated from the hexo theme [yilia](https://github.com/litten/hexo-theme-yilia), inspired by [Dracula](https://draculatheme.com/).
 
 See [my blog](https://natsunoyoru97.github.io/) to look how it works.
 
-I want to build plugins rather than a theme. It's up to you to decide which files you want to import, and it's easy to uninstall any of these plugins if you don't need it anymore. It doesn't cause any side-effect.
+I want to build plugins(not only color scheme) rather than a theme. It's up to you to decide which files you want to import, and it's easy to uninstall any of these plugins if you don't need it anymore. It doesn't cause any side-effect.
 
 # Get Started
 
