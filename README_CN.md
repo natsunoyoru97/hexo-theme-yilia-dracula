@@ -17,7 +17,7 @@
 1. 复制``dracula.scss``到你yilia主题下的``source-src/css`` 文件夹中：
 
 ```shell
-cp dracula.scss [your path]/blog/theme/yilia/source-src/css
+cp dracula.scss <your-path>/blog/theme/yilia/source-src/css
 ```
 
 2. 在``css``文件夹中打开``main.scss``，在文件后面复制：
@@ -25,6 +25,8 @@ cp dracula.scss [your path]/blog/theme/yilia/source-src/css
 ```scss
 @import "./dracula";
 ```
+
+还需要同时复制``img``文件夹下的``tooltip.svg``到yilia主题下``source-src``里的同名文件夹内，否则分享和目录的弹窗会有一部分仍然保持原来的颜色。
 
 3. 在``yilia``文件夹下用webpack打包编译，重新生成你的博客：
 
@@ -43,6 +45,7 @@ hexo clean && hexo g
 # TODO
 
 - **通过yaml自定义主题状态，当选择该主题时才加载主题文件**
+- **重构代码**
 - 针对懒人的一键安装脚本
 - 进一步做测试
 - 统一智能菜单与主题的风格

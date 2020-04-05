@@ -19,7 +19,7 @@ Get a dracula theme in your yilia blog is easy.
 1. Just copy the ``dracula.scss`` file and paste it to the ``source-src/css`` folder in your yilia folder.
 
 ```shell
-cp dracula.scss [your path]/blog/theme/yilia/source-src/css
+cp dracula.scss <your-path>/blog/theme/yilia/source-src/css
 ```
 
 2. Open the ``main.scss`` file in the ``css`` folder, and add one line in the last of the file:
@@ -27,6 +27,8 @@ cp dracula.scss [your path]/blog/theme/yilia/source-src/css
 ```scss
 @import "./dracula";
 ```
+
+Remind to copy ``tooltip.svg`` in the ``img`` as well, and paste it to the ``img`` folder in the ``source-src`` file of your yilia theme.
 
 3. Compile with webpack in your ``yilia`` folder:
 
@@ -44,6 +46,7 @@ hexo clean && hexo g
 # TODO
 
 - **enable configuration from yaml(the .yml file)**
+- **reconstruct the code if I have time cuz it's messy**
 - install script in one-click
 - do more tests
 - draculafy the smart menu

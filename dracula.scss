@@ -1,4 +1,4 @@
-/* Dracula theme by natsunoyoru: https://github.com/natsunoyoru97/yilia-theme-dracula/*/
+/* Dracula theme by natsunoyoru */
 
 .left-col {
     background: #282A36; //dark blue
@@ -58,10 +58,6 @@
     color: #BC93F9;
 }
 
-p, ul, ol {
-    color: #fff;
-}
-
 .article-entry h1, .article-entry h2, .article-entry h3, .article-entry h4, .article-entry h5, .article-entry h6 {
     color: #E87BC2;
     border-bottom: 1px solid #aaa; //grey
@@ -76,6 +72,32 @@ p, ul, ol {
     background: #272936;
 }
 
+.article-entry strong {
+    color: #FD9D01;
+}
+
+.article-entry p code, .article-entry li code {
+    background: #272936;
+    border: 1px solid #272936;
+    color: #48D06D;
+}
+
+//not sure if it's working
+.article-entry table {
+    border-color: #272936;
+}
+
+.article-entry table thead tr {
+    background: #272936;
+}
+.article-entry table tbody tr:hover {
+    background: #B694F5;
+}
+
+p, ul, ol {
+    color: #fff;
+}
+
 a {
     color: #8BE9FC;
 }
@@ -88,15 +110,6 @@ tbody {
     color: #fff;
 }
 
-.article-entry strong {
-    color: #FD9D01;
-}
-
-.article-entry p code, .article-entry li code {
-    background: #272936;
-    border: 1px solid #272936;
-    color: #48D06D;
-}
 
 // categories
 .archives-wrap {
@@ -119,6 +132,40 @@ tbody {
 
 .article-meta time {
     color: #E87BC2;
+}
+
+//share
+.tooltip-left .tooltip-content {
+    background: #383A59;
+    .share-icons a {
+        border: 1px solid #B694F5;
+        color: #B694F5;
+    }
+}
+
+.tooltip-left .tooltip:hover a.share-outer {
+    background: #B694F5;
+}
+
+//scroll bar
+.mod-side-operation__jump-to-top .icon-back:hover {
+    background: #B694F5;
+}
+
+//tool
+.toc-container.tooltip-left:hover {
+    background: #B694F5;
+}
+
+.toc-container.tooltip-left .tooltip-east .tooltip-content {
+    text-shadow: none;
+}
+.toc-container.tooltip-left .tooltip-east .tooltip-content a {
+    color: #E97DC3;
+}
+
+.tooltip-content {
+    box-shadow: 1px 1px 5px 5px rgba(0,0,0,.15);
 }
 
 //tag-cloud
