@@ -14,6 +14,14 @@
     color: #BD93F9; //purple
 }
 
+//it's better to be able to change the color when the blog is rendered
+@function randomColor() {
+    @return nth(#FD9D01 #BD93F9 #E87BC2 #8BE9FD, random(length(#FD9D01 #BD93F9 #E87BC2 #8BE9FD)));
+}
+.left-col #header a:hover {
+    color: randomColor();
+}
+
 .left-col #header .header-subtitle {
     color: #48D06D; //green
 }
