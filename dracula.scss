@@ -1,42 +1,37 @@
 /* Dracula theme by natsunoyoru */
-
-.left-col {
-    background: #282A36; //dark blue
-    border-right: 1px solid rgba(0,0,0,.15);
-    box-shadow: 5px 0 5px 5px rgba(0,0,0,.15);
-}
-
-.left-col #header .profilepic {
-    border: 5px solid #FD9D01; //orange
-}
-
-#header .header-author a {
-    color: #BD93F9; //purple
-}
-
 //it's better to be able to change the color when the blog is rendered
 @function randomColor() {
     @return nth(#FD9D01 #BD93F9 #E87BC2 #8BE9FD, random(length(#FD9D01 #BD93F9 #E87BC2 #8BE9FD)));
 }
 
-.left-col #header a:hover {
-    color: randomColor();
-}
+.left-col {
+    background: #282A36; //dark blue
+    border-right: 1px solid rgba(0,0,0,.15);
+    box-shadow: 5px 0 5px 5px rgba(0,0,0,.15);
 
-.left-col #header .social a:hover {
-    color: #fff;
-}
-
-.left-col #header .header-subtitle {
-    color: #48D06D; //green
-}
-
-.left-col #header .header-menu li a {
-    color: #E87BC2; //pink
-}
-
-.left-col #header .header-smart-menu a {
-    color: #fff;
+    #header {
+        .profilepic {
+            border: 5px solid #FD9D01; //orange
+         }
+        .header-author a {
+            color: #BD93F9; //purple
+        }
+        a:hover {
+            color: randomColor();
+        }
+        .social a:hover {
+            color: #fff;
+        }
+        .header-subtitle {
+            color: #48D06D; //green
+        }
+        .header-menu li a {
+            color: #E87BC2; //pink
+        }
+        .header-smart-menu a {
+            color: #fff;
+        }
+    }
 }
 
 .mid-col {
@@ -58,13 +53,14 @@
     color: #aaa;
 }
 
-.article-more-link a {
-    background: #50FA7B; //green
-    color: #000;
-}
-
-.article-more-link a:hover {
-    background: rgba(80,250,123,.8);
+.article-more-link {
+    a {
+        background: #50FA7B; //green
+        color: #000;
+    }
+    a:hover {
+        background: rgba(80,250,123,.8);
+    }
 }
 
 .article-header {
@@ -75,45 +71,39 @@
     color: #BC93F9;
 }
 
-.article-entry h1, .article-entry h2, .article-entry h3, .article-entry h4, .article-entry h5, .article-entry h6 {
-    color: #E87BC2;
-    border-bottom: 1px solid #aaa; //grey
-}
-
-.article-entry pre {
-    border: 1px solid #272936;
-    color: #fff;
-}
-
-.article-entry pre, .article-entry .highlight {
-    background: #272936;
-}
-
-.article-entry blockquote {
-    background: #272936;
-    border-left-color: #BD93F9;
-}
-
-.article-entry strong {
-    color: #FD9D01;
-}
-
-.article-entry p code, .article-entry li code {
-    background: #272936;
-    border: 1px solid #272936;
-    color: #48D06D;
-}
-
-//not sure if it's working
-.article-entry table {
-    border-color: #272936;
-}
-
-.article-entry table thead tr {
-    background: #272936;
-}
-.article-entry table tbody tr:hover {
-    background: #B694F5;
+.article-entry {
+    h1, h2, h3, h4, h5, h6 {
+        color: #E87BC2;
+        border-bottom: 1px solid #aaa; //grey
+    }
+    pre {
+        border: 1px solid #272936;
+        color: #fff;
+    }
+    pre, .highlight {
+        background: #272936;
+    }
+    blockquote {
+        background: #272936;
+        border-left-color: #BD93F9;
+    }
+    strong {
+        color: #FD9D01;
+    }
+    p code, li code {
+        background: #272936;
+        border: 1px solid #272936;
+        color: #48D06D;
+    }
+    table {
+        border-color: #272936;
+    }
+    table thead tr {
+        background: #272936;
+    }
+    table tbody tr:hover {
+        background: #B694F5;
+    }
 }
 
 p, ul, ol {
@@ -132,24 +122,23 @@ tbody {
     color: #fff;
 }
 
-
 // categories
 .archives-wrap {
     background: #383A59;
     border-bottom: 1px solid #E87BC2;
+    .archive-year-wrap a {
+        color: #BD93F9;
+    }
 }
 
-.archives-wrap .archive-year-wrap a {
-    color: #BD93F9;
-}
-
-.archives .archive-article {
-    border-top: 1px solid #E87BC2;
-    border-bottom: 1px solid #E87BC2;
-}
-
-.archives .archive-article-title {
-    color: #FD9D01;
+.archives {
+    .archive-article {
+        border-top: 1px solid #E87BC2;
+        border-bottom: 1px solid #E87BC2;
+    }
+    .archive-article-title {
+        color: #FD9D01;
+    }
 }
 
 .article-meta time {
@@ -157,16 +146,17 @@ tbody {
 }
 
 //share
-.tooltip-left .tooltip-content {
-    background: #383A59;
-    .share-icons a {
-        border: 1px solid #B694F5;
-        color: #B694F5;
+.tooltip-left {
+    .tooltip-content {
+        background: #383A59;
+        .share-icons a {
+            border: 1px solid #B694F5;
+            color: #B694F5;
+        }
     }
-}
-
-.tooltip-left .tooltip:hover a.share-outer {
-    background: #B694F5;
+    .tooltip:hover a.share-outer {
+        background: #B694F5;
+    }
 }
 
 //scroll bar
@@ -182,9 +172,9 @@ tbody {
 
 .toc-container.tooltip-left .tooltip-east .tooltip-content {
     text-shadow: none;
-}
-.toc-container.tooltip-left .tooltip-east .tooltip-content a {
-    color: #E97DC3;
+    a {
+        color: #E97DC3;
+    }
 }
 
 .tooltip-content {
