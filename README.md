@@ -55,3 +55,9 @@ hexo clean && hexo g
 - the file tree
 - maybe some animations
 - fix other minor bugs
+
+# Reminder
+
+Since the source theme [yilia](https://github.com/litten/hexo-theme-yilia) has been out of maintainance for alomost 5 years, 
+and during this time, hexo has some major changes making some of the functions and styles NO LONGER IN EFFECT. I also mended
+some of them, and the files are also avilable on this repository (they are under the ``yilia``folder).

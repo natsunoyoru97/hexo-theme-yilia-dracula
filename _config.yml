@@ -1,0 +1,190 @@
+# Header
+
+menu:
+  所有文章: /
+  技术相关: /categories/技术相关
+  杂谈: /categories/杂谈
+  电子书分享: /2020/03/13/电子书分享
+  算法: /categories/算法
+  个人简历: /2021/08/02/Resume-template-cn
+
+# SubNav
+subnav:
+  github: "https://github.com/natsunoyoru97"
+  #weibo: "#"
+  #rss: "#"
+  codepen: "https://codepen.io/natsunoyoru"
+  #zhihu: "#"
+  #qq: "#"
+  #weixin: "#"
+  #jianshu: "#"
+  #douban: "#"
+  #segmentfault: "#"
+  #bilibili: "#"
+  #acfun: "#"
+  mail: "mailto:natsunoyoru97@outlook.com"
+  #facebook: "#"
+  #google: "#"
+  #twitter: "#"
+  #linkedin: "#"
+
+rss: /atom.xml
+
+# 是否需要修改 root 路径
+# 如果您的网站存放在子目录中，例如 http://yoursite.com/blog，
+# 请将您的 url 设为 http://yoursite.com/blog 并把 root 设为 /blog/。
+root:
+
+# Content
+
+# 文章太长，截断按钮文字
+excerpt_link: more
+# 文章卡片右下角常驻链接，不需要请设置为false
+show_all_link: 'more'
+# 数学公式
+mathjax: true
+# mermaid图表
+mermaid: ## mermaid url https://github.com/knsv/mermaid
+  enable: true  # default true
+  version: "7.1.2" # default v7.1.2
+  options:  # find more api options from https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js
+  #startOnload: true  // default true
+# 是否在新窗口打开链接
+open_in_new: false
+# URL
+pretty_urls:
+  trailing_index: true 
+  trailing_html: true
+
+# Writing
+highlight:
+  enable: true
+  auto_detect: false
+  line_number: true
+  tab_replace: '  '
+  wrap: true
+  hljs: false
+prismjs:
+  enable: false
+  preprocess: true
+  line_number: true
+  tab_replace: ''
+
+# Metadata elements
+## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+meta_generator: true
+
+# Include / Exclude file(s)
+## include:/exclude: options only apply to the 'source/' folder
+#include:
+#exclude: 
+#ignore: 
+
+
+# 打赏
+# 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
+reward_type: 0
+# 打赏wording
+reward_wording: '(*^▽^*)'
+# 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
+#lipay: 
+# 微信二维码图片地址
+#weixin: 
+
+# 目录
+# 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录
+toc: 2
+# 根据自己的习惯来设置，如果你的目录标题习惯有标号，置为true即可隐藏hexo重复的序号；否则置为false
+toc_hide_index: false
+# 目录为空时的提示
+toc_empty_wording: '没有啦～'
+
+# 是否有快速回到顶部的按钮
+top: true
+
+# Miscellaneous
+baidu_analytics: ''
+google_analytics: ''
+favicon: /favicon.png
+
+#你的头像url
+avatar: https://s2.ax1x.com/2020/03/08/3z79tP.jpg
+
+#是否开启分享
+share_jia: true
+
+#评论：1、多说；2、网易云跟帖；3、畅言；4、Disqus；5、Gitment; 6、utterance
+#不需要使用某项，直接设置值为false，或注释掉
+#具体请参考wiki：https://github.com/litten/hexo-theme-yilia/wiki/
+
+#1、多说
+duoshuo: false
+
+#2、网易云跟帖
+wangyiyun: false
+
+#3、畅言
+changyan_appid: false
+changyan_conf: false
+
+#4、Disqus 在hexo根目录的config里也有disqus_shortname字段，优先使用yilia的
+disqus: false
+
+#5、Gitment
+gitment_owner: #'natsunoyoru97'      #你的 GitHub ID
+gitment_repo: #'natsunoyoru97.github.io'          #存储评论的 repo
+gitment_oauth:
+  client_id: #'7cfca28458acdb1186f5'           #client ID
+  client_secret: #'c5f7d18182b92a5823347dd73a68d6dffa29a69f'       #client secret
+
+#6、utterance    https://utteranc.es
+utterance:
+  enable: true
+  repo: 'natsunoyoru97/natsunoyoru97.github.io' #仓库名称
+  issue_term: 'title' #映射配置
+  theme: 'github-dark-orange' #主题
+
+# 样式定制 - 一般不需要修改，除非有很强的定制欲望…
+style:
+  # 头像上面的背景颜色
+  header: '#777777'
+  # 右滑板块背景
+  slider: '#4d4d4d'
+
+# slider的设置
+slider:
+  # 是否默认展开tags板块
+  showTags: true
+
+# 智能菜单
+# 如不需要，将该对应项置为false
+# 比如
+#smart_menu:
+#  friends: false
+smart_menu:
+  innerArchive: '标签云'
+  friends: false
+  aboutme: '关于我'
+
+# TODO: 自定义主题
+custom: 'dracula'
+
+friends:
+  友情链接1: http://localhost:4000/
+  友情链接2: http://localhost:4000/
+  友情链接3: http://localhost:4000/
+  友情链接4: http://localhost:4000/
+  友情链接5: http://localhost:4000/
+  友情链接6: http://localhost:4000/
+
+aboutme:
+  现在一般认为问题抽象、系统抽象和数据抽象是计算机类专业毕业生的核心能力。<br>
+  ——臧斌宇，CSAPP中文版序二<br>
+  <br>
+  Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away. <br>
+  —Antoine de saint Exupery<br>
+  <br>
+  半路出家、需要恶补很多计算机知识的半吊子。<br>
+  即将读计算机方向的研究生，写代码掰电脑很大程度上出于自己喜欢，但也喜欢代码之外的许多事物。<br>
+  其实还有一个里站当树洞，记一些代码以外的东西。不公布域名，搜索引擎也不会显示，不过域名并不难猜，（好奇心强 &amp&amp 有兴趣了解我）的有缘人可以看到。<br>
+  头像是邦邦的mskk，她们太好了！<br>
