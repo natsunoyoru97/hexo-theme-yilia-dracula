@@ -1,4 +1,4 @@
-# yilia-theme-dracula
+# hexo-theme-yilia-dracula
 
 ![](https://img.shields.io/badge/hexo-5.4.0-blue)
 ![](https://img.shields.io/badge/node-14.17.4-blue)
