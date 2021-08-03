@@ -1,6 +1,7 @@
 # yilia-theme-dracula
 
-![](https://img.shields.io/badge/hexo-3.7.1-blue)
+![](https://img.shields.io/badge/hexo-5.4.0-blue)
+![](https://img.shields.io/badge/node-14.17.4-blue)
 ![](https://img.shields.io/badge/yilia-4.0.0-blue)
 ![](https://img.shields.io/badge/IE-8+-red)
 
